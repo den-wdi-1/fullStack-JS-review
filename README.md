@@ -3,9 +3,11 @@
 ##Objectives:
 
 *By the end of this review, developers should be able to:*
-- **Organize** files in a full-stack JS app
 - **Understand** the roles that Node, Express, Mongo, and Mongoose can play in a full-stack JS app
+- **Organize** files in a full-stack JS app
 - **Differentiate** between HTML, templates, Mongo, and JS by syntax clues
+- **Define** "route" and "REST"
+- **Parse** params, queries, and bodies from requests
 
 ##The Main Pieces of a *Typical* Full-Stack Javascript App
 | Tool  | Description  |
@@ -26,13 +28,23 @@
 | View  | User-facing Display  |
 | Controller  | Website Functionality  |
 
-##Typical Full-Stack JS Folder Structures
+##*Typical* Full-Stack JS Folder Structures
 
 ![](images/firstExpress.png)
 
 ![](images/candiesLab.png)
 
 ![](images/stockChart.png)
+
+Now let's take a look at these files in one of our previous projects.
+
+To summarize, here are the things you'll usually see in each part of the MVC architecture
+
+| Location  | Description  |
+|---|---|
+| Model  | Mongo, Mongoose, schemas, models, Javascript  |
+| View  | Express (render), HTML, Handlebars, templates, layouts, views, Javascript |
+| Controller  | Node, Express (callback), controllers, **Javascript**  |
 
 ##What Is a Route?
 
@@ -55,7 +67,7 @@
 - ```npm install packageName``` installs ```packageName``` in the ```node_modules``` directory
 - ```npm install --save packageName``` installs ```packageName``` in the ```node_modules``` directory AND saves it in the "dependencies" in your ```package.json`` file
 
-##Params and Parsing Them
+##Parts of a Request and Parsing Them
 - The idea behind req.params, req.query, and req.body (especially with BodyParser) is to take URLs and HTTP payloads and convert them into an easily readable Javascript form.
 - Since we're in Javascript, we are usually looking for JSON.
 - req.params reference a simple part of the path like /api/todos/**:id**
