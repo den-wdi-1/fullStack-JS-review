@@ -8,6 +8,7 @@
 - **Differentiate** between HTML, templates, Mongo, and JS by syntax clues
 - **Define** "route" and "REST"
 - **Parse** params, queries, and bodies from requests
+- **Understand** why OOP is a useful paradigm to adopt in many circumstances
 
 ##The Main Pieces of a *Typical* Full-Stack Javascript App
 | Tool  | Description  |
@@ -76,6 +77,11 @@ To summarize, here are the things you'll usually see in each part of the MVC arc
   - Usually the thing to "create" with POST
   - Usually the thing to "update" with PUT
   - Usually the thing to "delete" with DELETE
+
+##Why OOP?
+
+
+##Postman Demo
 
 ##Further Resources
 [More on REST](https://en.wikipedia.org/wiki/Representational_state_transfer#Architectural_constraints)
