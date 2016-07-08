@@ -28,3 +28,8 @@
 
 ##Typical Full-Stack JS Folder Structures
 
+![](images/firstExpress.png)
+
+![](images/candiesLab.png)
+
+![](images/stockChart.png)
