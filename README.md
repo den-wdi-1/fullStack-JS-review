@@ -85,3 +85,7 @@ To summarize, here are the things you'll usually see in each part of the MVC arc
 
 ##Further Resources
 [More on REST](https://en.wikipedia.org/wiki/Representational_state_transfer#Architectural_constraints)
+
+## Licensing
+All content is licensed under a CC­BY­NC­SA 4.0 license.
+All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
